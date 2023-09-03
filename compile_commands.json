@@ -1,0 +1,6 @@
+[
+{
+  "directory": "/home/welann/lc",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-o", "build/.objs/lc/linux/x86_64/debug/src/main.cpp.o", "src/main.cpp"],
+  "file": "src/main.cpp"
+}]
