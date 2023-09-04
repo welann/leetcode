@@ -2,7 +2,7 @@ add_rules("mode.debug", "mode.release")
 
 target("lc")
     set_kind("binary")
-    add_files("src/1921.cpp")
+    add_files("src/449.cpp")
 
 --
 -- If you want to known more usage about xmake, please see https://xmake.io
