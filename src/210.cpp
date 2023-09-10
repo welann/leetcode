@@ -73,7 +73,7 @@ public:
         return ans;
     }
 
-    inline bool search( int course, vector< vector< int > >& graph )
+    bool search( int course, vector< vector< int > >& graph )
     {
         for ( auto value : graph[ course ] ) {
             if ( value == 1 ) {

@@ -2,7 +2,7 @@ add_rules("mode.debug", "mode.release")
 
 target("lc")
     set_kind("binary")
-    add_files("src/210.cpp")
+    add_files("src/437.cpp")
 
 before_run(function (target)
     os.execv("xmake build " .. target:name())
