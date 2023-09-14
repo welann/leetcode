@@ -2,7 +2,7 @@ add_rules("mode.debug", "mode.release")
 
 target("lc")
     set_kind("binary")
-    add_files("src/2596.cpp")
+    add_files("src/1222.cpp")
 
 before_run(function (target)
     os.execv("xmake build " .. target:name())
@@ -22,7 +22,7 @@ end)
 --
 -- 2. How to configure project?
 --
---   $ xmake f -p [macosx|linux|iphoneos ..] -a [x86_64|i386|arm64 ..] -m [debug|release]
+--   $ xmake f -p {macosx|linux|iphoneos ..} -a {x86_64|i386|arm64 ..} -m {debug|release}
 --
 -- 3. Where is the build output directory?
 --
@@ -33,8 +33,8 @@ end)
 --
 -- 4. How to run and debug target after building project?
 --
---   $ xmake run [targetname]
---   $ xmake run -d [targetname]
+--   $ xmake run {targetname}
+--   $ xmake run -d {targetname}
 --
 -- 5. How to install target to the system directory or other output directory?
 --
